@@ -6,7 +6,8 @@ The command takes two arguments:
 
 Usage:
 ```sh
-curl "https://raw.githubusercontent.com/beyondszine/runTillSuccess/master/rts.sh" | source
+source /dev/stdin <<< "$(curl 'https://raw.githubusercontent.com/beyondszine/runTillSuccess/master/rts.sh')"
+
 ```
 Examples:
 ```sh
