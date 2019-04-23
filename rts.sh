@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # constants for success value of your program, just in case its not standard '0'.
 # Delay between consecutive tries if it fails due to any reason.  
 # m_result is random number given other than success value.
